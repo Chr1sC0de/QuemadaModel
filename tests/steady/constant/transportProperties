@@ -16,11 +16,10 @@ FoamFile
 // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
 
 transportModel  Quemada;
-//transportModel  Newtonian;
 
 nu              nu [ 0 2 -1 0 0 0 0 ] 3.302E-06;
 
-switchOn 0.003;
+switchOn 0.4;
 
 QuemadaCoeffs
 {
